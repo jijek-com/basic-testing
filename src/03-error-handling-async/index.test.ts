@@ -19,7 +19,7 @@ describe('throwError', () => {
   });
 
   test('should throw error with default message if message is not provided', () => {
-    expect(() => throwError()).toThrow('error!');
+    expect(() => throwError()).toThrow('Oops!');
   });
 });
 
